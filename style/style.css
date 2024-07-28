@@ -1,3 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .main2{
     background-color: hsla(77, 82%, 51%, 0.5)
+}
+
+.mapa{
+    background-color: red;
+    /* border: 5px solid green; */
+    /* margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    margin-left: 20px; */
+
+    /* margin:  20px 10px 100px 20px; */
+
+    /* margin: 20px 100px; */
+
+    margin: 100px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 7px;
+    border-bottom: 10px dotted rgb(18, 18, 218);
+    border-top: 10px dashed rgb(18, 18, 218);
+    border-top-right-radius:20px;
+}
+
+.container{
+    width: 100%;
+    height: 400px;
+    background-color: bisque;
+}
+
+.box1{
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.box2{
+    float: right;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.box3{
+    clear: both;
+}
+
+.overflow{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    overflow:auto;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: beige;
+}
+
+.pos{
+    /* position:static; */
+
+    /* position: relative;
+    left: 10px;
+    right: 20px;
+    top: 10px; */
+
+    /* position:absolute;
+    left: 10px;
+    z-index: -1; */
+
+    /* position:fixed;
+    left: 10px;
+    bottom: 10px; */
+
+
+    /* position: sticky;
+    top: 0; */
+
+    width: 100%;
+    height: 80px;
+    background-color: green;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    margin: 20px;
+    box-shadow: 2px 4px 2px red;
+
+    text-shadow: 2px 2px 2px blue;
 }
